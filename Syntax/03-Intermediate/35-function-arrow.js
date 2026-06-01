@@ -75,3 +75,9 @@ const Hello = (word, number) => {
     }
 
 }
+
+const numbersList = [1, 2, 3, 4, 5, 6];
+
+const squares = numbersList.map((element) => Math.pow(element, 2));
+
+console.log(squares);
