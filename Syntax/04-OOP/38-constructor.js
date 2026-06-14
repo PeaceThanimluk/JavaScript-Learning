@@ -12,3 +12,11 @@ const car2 = new Car("Toyota", "Yaris", 2015, "silver");
 console.log(car1.make);
 console.log(car2.make);
 
+class Product {
+    constructor(name, price) {
+        this.name = name;
+        this.price = price;
+    }
+}
+
+

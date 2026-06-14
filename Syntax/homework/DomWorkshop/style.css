@@ -1,0 +1,19 @@
+/* ============================================================
+   UNIVERSAL RESET
+============================================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+form > * {
+    display: block;
+}
+
+.input-container input{
+    display: block;
+}

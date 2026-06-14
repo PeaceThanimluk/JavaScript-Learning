@@ -1,0 +1,44 @@
+/* ============================================================
+   UNIVERSAL RESET
+============================================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+.button-container {
+    margin: 10px auto;
+    background-color: bisque;
+    border-radius: 20px;
+    max-width: 100px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+button {
+    background-color: rgb(244, 168, 62);
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(224, 132, 2);
+}
+
+button:active {
+    background-color: white;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <div class="form-container">
+            <h1 class="headerText">Register form</h1>
+
+            <form action="">
+
+                <div class="input-container" id="firstName-container">
+                    <label for="firstName" class="section-text">ชื่อจริง</label>
+                    <input type="text" id="firstName" class="input" placeholder="กรอกชื่อจริง">
+                </div>
+
+                <div class="input-container" id="lastName-container">
+                    <label for="lastName" class="section-text">นามสกุล</label>
+                    <input type="text" id="lastName" class="input" placeholder="กรอกนามสกุล">
+                </div>
+
+                <div class="input-container">
+                    <label for="age">อายุ</label>
+                    <input type="number" id="age">
+                </div>
+
+                <div class="genderContainer">
+                    <div class="section-text">เพศ</div>
+
+                    <div class="list-container">
+                        <ul class="genderRadio">
+                            <li><input name="gender" type="radio" value="ชาย">ชาย</li>
+                            <li><input name="gender" type="radio" value="หญิง">หญิง</li>
+                            <li><input name="gender" type="radio" value="ไม่ระบุ">ไม่ระบุ</li>
+                        </ul>                        
+                    </div>
+
+                </div>
+
+                <div class="interest-container">
+                    <div class="section-text">สิ่งที่สนใจ</div>
+
+                    <div class="list-container">
+                        <ul class="interestCheckbox">
+                            <li><input name="interest" type="checkbox" value="หนังสือ">หนังสือ</li>
+                            <li><input name="interest" type="checkbox" value="วิดีโอเกม">วิดีโอเกม</li>
+                            <li><input name="interest" type="checkbox" value="การเมือง">การเมือง</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

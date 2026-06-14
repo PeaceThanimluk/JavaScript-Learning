@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input-container">
+
+        <section class="Text-Input">
+            <div class="textInput-container">
+                <label for="password">password</label>
+                <input type="text" name="password" id="password" placeholder="password" onchange="inputFunction()">
+            </div>
+        </section>
+
+        <section class="Select-input">
+            <div class="selectInput-container">
+                <select name="mySelect" class="mySelect" id="mySelect" onchange="selectFunction()">
+                    <option value="Apple">Apple</option>
+                    <option value="Banana">Banana</option>
+                </select>                
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
